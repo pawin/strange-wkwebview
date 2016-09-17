@@ -14,6 +14,8 @@
 		233EE66D1D8D4BC700DD40BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233EE66B1D8D4BC700DD40BC /* LaunchScreen.storyboard */; };
 		233EE6781D8D4BC700DD40BC /* webviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233EE6771D8D4BC700DD40BC /* webviewTests.swift */; };
 		233EE6831D8D4BC700DD40BC /* webviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233EE6821D8D4BC700DD40BC /* webviewUITests.swift */; };
+		233EE6921D8D4CD500DD40BC /* WebTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233EE6901D8D4CD500DD40BC /* WebTableViewCell.swift */; };
+		233EE6931D8D4CD500DD40BC /* WebTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 233EE6911D8D4CD500DD40BC /* WebTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		233EE67E1D8D4BC700DD40BC /* webviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		233EE6821D8D4BC700DD40BC /* webviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webviewUITests.swift; sourceTree = "<group>"; };
 		233EE6841D8D4BC700DD40BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233EE6901D8D4CD500DD40BC /* WebTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebTableViewCell.swift; sourceTree = "<group>"; };
+		233EE6911D8D4CD500DD40BC /* WebTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				233EE6621D8D4BC700DD40BC /* AppDelegate.swift */,
 				233EE6641D8D4BC700DD40BC /* ViewController.swift */,
 				233EE6661D8D4BC700DD40BC /* Main.storyboard */,
+				233EE6901D8D4CD500DD40BC /* WebTableViewCell.swift */,
+				233EE6911D8D4CD500DD40BC /* WebTableViewCell.xib */,
 				233EE6691D8D4BC700DD40BC /* Assets.xcassets */,
 				233EE66B1D8D4BC700DD40BC /* LaunchScreen.storyboard */,
 				233EE66E1D8D4BC700DD40BC /* Info.plist */,
@@ -234,6 +240,7 @@
 			files = (
 				233EE66D1D8D4BC700DD40BC /* LaunchScreen.storyboard in Resources */,
 				233EE66A1D8D4BC700DD40BC /* Assets.xcassets in Resources */,
+				233EE6931D8D4CD500DD40BC /* WebTableViewCell.xib in Resources */,
 				233EE6681D8D4BC700DD40BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				233EE6921D8D4CD500DD40BC /* WebTableViewCell.swift in Sources */,
 				233EE6651D8D4BC700DD40BC /* ViewController.swift in Sources */,
 				233EE6631D8D4BC700DD40BC /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +513,7 @@
 				233EE6891D8D4BC700DD40BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		233EE68A1D8D4BC700DD40BC /* Build configuration list for PBXNativeTarget "webviewTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				233EE68C1D8D4BC700DD40BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		233EE68D1D8D4BC700DD40BC /* Build configuration list for PBXNativeTarget "webviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				233EE68F1D8D4BC700DD40BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
