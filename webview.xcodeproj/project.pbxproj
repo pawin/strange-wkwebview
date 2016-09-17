@@ -16,6 +16,9 @@
 		233EE6831D8D4BC700DD40BC /* webviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233EE6821D8D4BC700DD40BC /* webviewUITests.swift */; };
 		233EE6921D8D4CD500DD40BC /* WebTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233EE6901D8D4CD500DD40BC /* WebTableViewCell.swift */; };
 		233EE6931D8D4CD500DD40BC /* WebTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 233EE6911D8D4CD500DD40BC /* WebTableViewCell.xib */; };
+		23A1AC111D8D9A5100EB8548 /* ss1.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A1AC0E1D8D9A5100EB8548 /* ss1.png */; };
+		23A1AC121D8D9A5100EB8548 /* ss2.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A1AC0F1D8D9A5100EB8548 /* ss2.png */; };
+		23A1AC131D8D9A5100EB8548 /* ss3.png in Resources */ = {isa = PBXBuildFile; fileRef = 23A1AC101D8D9A5100EB8548 /* ss3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		233EE6841D8D4BC700DD40BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		233EE6901D8D4CD500DD40BC /* WebTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebTableViewCell.swift; sourceTree = "<group>"; };
 		233EE6911D8D4CD500DD40BC /* WebTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebTableViewCell.xib; sourceTree = "<group>"; };
+		23A1AC0E1D8D9A5100EB8548 /* ss1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss1.png; sourceTree = "<group>"; };
+		23A1AC0F1D8D9A5100EB8548 /* ss2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss2.png; sourceTree = "<group>"; };
+		23A1AC101D8D9A5100EB8548 /* ss3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,9 @@
 				233EE6911D8D4CD500DD40BC /* WebTableViewCell.xib */,
 				233EE6691D8D4BC700DD40BC /* Assets.xcassets */,
 				233EE66B1D8D4BC700DD40BC /* LaunchScreen.storyboard */,
+				23A1AC0E1D8D9A5100EB8548 /* ss1.png */,
+				23A1AC0F1D8D9A5100EB8548 /* ss2.png */,
+				23A1AC101D8D9A5100EB8548 /* ss3.png */,
 				233EE66E1D8D4BC700DD40BC /* Info.plist */,
 			);
 			path = webview;
@@ -238,8 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A1AC131D8D9A5100EB8548 /* ss3.png in Resources */,
+				23A1AC121D8D9A5100EB8548 /* ss2.png in Resources */,
 				233EE66D1D8D4BC700DD40BC /* LaunchScreen.storyboard in Resources */,
 				233EE66A1D8D4BC700DD40BC /* Assets.xcassets in Resources */,
+				23A1AC111D8D9A5100EB8548 /* ss1.png in Resources */,
 				233EE6931D8D4CD500DD40BC /* WebTableViewCell.xib in Resources */,
 				233EE6681D8D4BC700DD40BC /* Main.storyboard in Resources */,
 			);
