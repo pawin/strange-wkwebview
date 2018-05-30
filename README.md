@@ -1,3 +1,5 @@
+## UPDATE: This issue is resolved in iOS11
+
 # WKWebView
 ### Demonstrate WKWebView strange rendering behaviour, only occurs in iOS 10
 
